@@ -75,3 +75,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name: Set Git Remote URL
+        run: git remote set-url origin "https://github.com/shamitha297/my-portfolio.git"
