@@ -20,30 +20,21 @@ const data = [
   //   icon: faFacebookF,
   // },
   {
-    link: 'https://www.instagram.com/dshamithagowra/',
+    link: 'https://www.instagram.com/shamithagowra/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/shamitha-gowra/',
+    link: 'https://www.linkedin.com/in/shamitha-gowra-357b59169/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
-  // {
-  //   link: 'https://angel.co/michael-d-angelo',
-  //   label: 'Angel List',
-  //   icon: faAngellist,
-  // },
-  // {
-  //   link: 'https://twitter.com/dangelosaurus',
-  //   label: 'Twitter',
-  //   icon: faTwitter,
-  // },
-  // {
-  //   link: 'mailto:michael.l.dangelo@gmail.com',
-  //   label: 'Email',
-  //   icon: faEnvelope,
-  // },
+  {
+    link: 'https://www.instagram.com/shamithagowra/',
+    label: 'Poetry/Blog',
+    icon: faInstagram,
+  },
+ 
 ];
 
 export default data;

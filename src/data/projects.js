@@ -2,6 +2,7 @@ const data = [
   {
     title: 'Credit Card Fraud Detection',
     subtitle: 'Implemented five Machine Learning algorithms from scratch',
+    link: 'https://github.com/shamitha297/Credit-card-fraud-detection',
     image: '/images/projects/fraud_detection.jpg',
     date: '2023-04-12',
     desc:
@@ -11,7 +12,7 @@ const data = [
   {
     title: 'Portfolio Management Using Recurrent Neural Networks (RNNs)',
     subtitle: 'Applied LSTMs for time series forecasting and portfolio optimization',
-    link: 'https://github.com/your-github/portfolio-management',
+    link: 'https://github.com/shamitha297/Portfolio-Management-Using-Recurrent-Neural-Networks-RNNs-',
     image: '/images/projects/portfolio_management.png',
     date: '2024-10-15',
     desc:
@@ -21,7 +22,7 @@ const data = [
   {
     title: 'Gesture Recognition System for Human-Computer Interaction',
     subtitle: 'Developed a gesture-driven interface using machine learning',
-    link: 'https://github.com/your-github/gesture-recognition',
+    link: 'https://github.com/shamitha297',
     image: '/images/projects/gesture_recognition.png',
     date: '2019-02-10',
     desc:

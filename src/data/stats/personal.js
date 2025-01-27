@@ -55,6 +55,12 @@ const data = [
     label: 'Also',
     value: 'My friends call me Sham, you can too, but it’s all real!',
   },
+  {
+    key: 'showoff',
+    label: 'Lines of Javascript powering this website',
+    value: '2150',
+    link: 'https://github.com/shamitha297/my-portfolio'
+  },
 ];
 
 export default data;

@@ -42,14 +42,14 @@ const Index = () => {
           {' '}
           Welcome to my website. Please feel free to click around any sections that interest you.{' '}
           Here you can know more <Link to="/about">about me</Link>, or you can check out my{' '}
-          <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-          view <Link to="/stats">site statistics</Link>, or{' '}
-          <Link to="/contact">contact</Link> me.
+          <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link> or{' '}
+          <Link to="/contact">contact</Link> me. If you are into numbers then check out the {' '}
+          <Link to="/stats">stats</Link> section.
         </p>
         <p>
           {' '}
           Source available{' '}
-          <a href="https://github.com/mldangelo/personal-site">here</a>.
+          <a href="https://github.com/shamitha297/my-portfolio">here</a>.
         </p>
       </article>
     </Main>
