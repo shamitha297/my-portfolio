@@ -1,0 +1,170 @@
+/* Basic */
+
+/* MSIE: Required for IEMobile */
+@-ms-viewport {
+  width: device-width;
+}
+
+/* MSIE: Prevents scrollbar from overlapping content */
+body {
+  -ms-overflow-style: scrollbar;
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
+  position: relative; /* For positioning stickers */
+  overflow: auto; /* Allow scrolling */
+}
+
+/* Ensures page width is always >=320px */
+@include breakpoint(xsmall) {
+  html,
+  body {
+    min-width: 320px;
+  }
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #e6e6fa, #ffffff); /* Lavender to white gradient */
+  color: #4f4f4f; /* Darker text for contrast */
+}
+
+/* Prevents animation/transition "flicker" on page load */
+body.is-loading {
+  *,
+  *:before,
+  *:after {
+    @include vendor("animation", "none !important");
+    @include vendor("transition", "none !important");
+  }
+}
+
+/* Smooth transitions for page elements */
+a, button, input {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects */
+a:hover, button:hover {
+  transform: scale(1.05);
+  background-color: #c5b7d6; /* Light pink hover for buttons */
+  color: #fff; /* Text color change */
+}
+
+/* Subtle animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 1s ease-out;
+}
+
+/* Sticker Styles */
+.sticker {
+  position: absolute;
+  pointer-events: none; /* Prevent stickers from blocking other interactions */
+  z-index: 1000; /* Stickers in front of content */
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+/* Sticker Hover Effects */
+.sticker:hover {
+  opacity: 1;
+}
+
+/* Sticker 1 (Computer) */
+.sticker.computer {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/computer.png');
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  left: 15%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Sticker 2 (Sunshine) */
+.sticker.sunshine {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/sun.png');
+  width: 50px;
+  height: 50px;
+  top: 25%;
+  right: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Sticker 3 (Star) */
+.sticker.star {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/star.png');
+  width: 30px;
+  height: 30px;
+  top: 60%;
+  left: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Button styles */
+button {
+  background-color: #e6e6fa; /* Lavender background */
+  color: #4f4f4f;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d1d1f5; /* Slightly darker lavender on hover */
+  color: #fff;
+}
+
+/* Input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+  background-color: #fff;
+  border: 1px solid #e6e6fa; /* Lavender border */
+  padding: 10px;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #d1d1f5; /* Lavender focus border */
+}
+
+/* Footer */
+footer {
+  background-color: #e6e6fa; /* Lavender background */
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #4f4f4f;
+  animation: fadeInUp 2s ease-out;
+}
+
+footer a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #d1d1f5;
+  text-decoration: underline;
+}
+
+/* Animation for main content */
+main {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
