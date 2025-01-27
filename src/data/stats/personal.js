@@ -59,7 +59,7 @@ const data = [
     key: 'showoff',
     label: 'Lines of Javascript powering this website',
     value: '2150',
-    link: 'https://github.com/shamitha297/my-portfolio'
+    link: 'https://github.com/shamitha297/my-portfolio',
   },
 ];
 

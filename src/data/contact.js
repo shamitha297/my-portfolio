@@ -34,7 +34,6 @@ const data = [
     label: 'Poetry/Blog',
     icon: faInstagram,
   },
- 
 ];
 
 export default data;
