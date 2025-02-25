@@ -30,10 +30,10 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'https://www.instagram.com/shamithagowra/',
-    label: 'Poetry/Blog',
-    icon: faInstagram,
-  },
+    link: 'mailto:shamithagowra@example.com',
+    label: 'Email',
+    icon: faEnvelope,
+},
 ];
 
 export default data;
