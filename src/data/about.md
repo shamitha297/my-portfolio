@@ -20,7 +20,7 @@ In addition to my technical work, I enjoy organizing and programming events at C
 # I Enjoy
 
 - Organizing and planning community events at CSU.
-- Writing poems and maintaining a [creative blog](https://www.instagram.com/poshetry/).
+- Writing poems and maintaining a creative blog.
 - Staying curious about the latest trends in AI, web development, and computer science.
 
 If you are interested in collaborating or think I can assist you with your project, feel free to reach out.
